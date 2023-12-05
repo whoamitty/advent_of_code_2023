@@ -1,0 +1,7 @@
+Pour autant que le lutin ait pu le comprendre, vous devez déterminer quels sont les numéros que vous avez qui apparaissent dans la liste des numéros gagnants. La première correspondance rend la carte d'une valeur d'un point et chaque correspondance après la première double la valeur en points de cette carte.
+
+
+1 correspondance =1point
+2 ""  =*2
+3 "" = *4
+...

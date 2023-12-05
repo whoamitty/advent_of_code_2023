@@ -1,0 +1,23 @@
+Le lutin aimerait d'abord savoir quels jeux auraient été possibles si le sac ne contenait que 12 cubes rouges, 13 cubes verts et 14 cubes bleus ?
+
+Dans l'exemple ci-dessus, les jeux 1, 2 et 5 auraient été possibles si le sac avait été chargé avec cette configuration. 
+
+
+
+/* Sur l'input, on compte comme vrai
+les jeux ayants 12 cubes rouges, 13 cubes verts et 14 cubes bleus 
+
+puis, les index de ces cubes doivent être additionnées */
+
+
+
+
+
+Sur l'input, on compte comme vrai les jeux qui respectent le fait de contenir pas plus que
+12 cubes rouges, 13 cubes verts et 14 cubes bleus
+Donc les jeux qui ont moins ou la même quantité
+
+Somme des index des jeux
+
+
+

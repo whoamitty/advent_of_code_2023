@@ -1,6 +1,6 @@
 Les récap du jour
 
-6 14-12-2023
+6 14-12-2023 Jeudi
 
 Problemes réglés:
 ajout de !/null/.test dans "searchNumberColor2"
@@ -20,7 +20,7 @@ Je pense que je le ferrais
 
 
 
-7 15-12-2023
+7 15-12-2023 vendredi
 C'est décevant, mais aujourd'hui,
 pas d'avancement
 peut-être la fatigue ?
@@ -32,7 +32,7 @@ Et pour contre-temps
 
 
 Ça ne marche pas comme ça devrais
-Pourquoi ça ne s'affiche qu'à la fin
+Pourquoi ça ne s'affiche qu'à la fin ?
 console.log("Nombre de bleu dans le premier tiragee :",searchNumberColor2(lineToTable(line)[0],regexBlue))
 
 Je ne comprend même plus, certains points de mon code
@@ -41,5 +41,5 @@ Je ne comprend même plus, certains points de mon code
 
 
 
-8 16-12-2023
+8 17-12-2023 Dimanche
 Aujourd'hui c'est full IA

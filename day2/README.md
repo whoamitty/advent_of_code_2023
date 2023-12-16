@@ -4,19 +4,6 @@
 ## Instructions and context
 
 
-<!--
-<details >
-  <summary>In English</summary>
-  
-</details >
-
-
-<details>
-<summary>En français</summary>
-</details>
-  -->
-
-
 <details >
   <summary>In English</summary>
 

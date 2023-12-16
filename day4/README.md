@@ -1,18 +1,7 @@
-<!-- <details >
-  <summary>In English</summary>
-  
-</details >
-
-
-
-<details>
-<summary>En français</summary>
-</details> -->
-
 ## Instructions and context
 
 > [!IMPORTANT]  
-> Resulte of soluce not working
+> Resulte of this soluce not working
 
 
 <details >

@@ -1,0 +1,33 @@
+Le reste de l'almanach contient une liste de cartes qui décrivent comment convertir les nombres d'une catégorie source en nombres d'une catégorie destination.
+
+c'est quoi
+
+le reste
+l'almanache
+
+
+Une map peut resembler à ça :
+le début de la plage de destination, le début de la plage source et la longueur de la plage
+le début de la plage de destination, le début de la plage source et la longueur de la plage
+le début de la plage de destination, le début de la plage source et la longueur de la plage
+le début de la plage de destination, le début de la plage source et la longueur de la plage
+
+
+graines : 79 14 55 13
+
+carte graine-sol :
+50 98 2
+52 50 48
+
+carte sol-engrais :
+0 15 37
+37 52 2
+39 0 15
+
+carte engrais-eau :
+49 53 8
+0 11 42
+42 0 7
+57 7 4
+
+

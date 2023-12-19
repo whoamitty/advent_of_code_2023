@@ -32,7 +32,7 @@ regexBlue=/\d+(?= blue)/g
 var regexColors=[['red',regexRed],['green',regexGreen],['blue',regexBlue]]
 
 lineNumber = 0;
-sumGamesTrue=0;
+sumIdexGamesTrue=0;
 listGamesTrue="";
 
 
@@ -43,6 +43,16 @@ rl.on('line', (line) => {
     console.log(line);
     console.log(lineToTable(line))
     
+    statusLIne=testAllColors(lineToTable(line))
+
+    if (statusLIne) {
+        sumIdexGamesTrue=sumIdexGamesTrue+lineNumber
+    }
+
+    console.log("status",statusLIne)
+    
+
+
     console.log("\n")
 });
 
@@ -58,25 +68,35 @@ function searchNumberColor(subSetofColor,regexColor){
 // ##############################
 function lineToTable(line) {
     const config=line.split(': ')[1].trim()
-    let setofTable=config.split(";")
-    return setofTable
+    let setOfTable=config.split(";")
+    return setOfTable
 
     }
 
-    
-    
-// Écouter l'événement 'close' et effectuer une action une fois que le fichier a été lu entièrement
-rl.on('close', () => {
-    console.log('Fin de la lecture du fichier.');
-    // console.log(argv[2]);
-});
+function testAllColors(setOfTable){
 
-// Gérer les erreurs éventuelles
-rl.on('error', (err) => {
-    console.error('Une erreur est survenue lors de la lecture du fichier:', err);
-    
-});
+    let numberColor
+    let boolean=true
+    setOfTable.forEach(subSet =>{
+        regexColors.forEach(color => { 
+            
+            numberColor=searchNumberColor(subSset,color[1]) //color[1] représente la partie regex de l'élément de liste
 
+            boolean=statusColor(color[0],numberColor)
+
+            if(!boolean){
+                return boolean
+            }
+
+            
+        });
+
+    })
+
+return boolean
+
+
+}
 
 function statusColor(color, number) {
     if (color === "red") {
@@ -93,6 +113,26 @@ function statusColor(color, number) {
     
     return true;
 }
+    
+// Écouter l'événement 'close' et effectuer une action une fois que le fichier a été lu entièrement
+rl.on('close', () => {
+    
+    console.log("sumIdexGamesTrue:",sumIdexGamesTrue);
+
+    console.log('Fin de la lecture du fichier.');
+    // console.log(argv[2]);
+});
+
+// Gérer les erreurs éventuelles
+rl.on('error', (err) => {
+    console.error('Une erreur est survenue lors de la lecture du fichier:', err);
+    
+});
+
+
+
+
+
 
 /* 
 Red.trim()

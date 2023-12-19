@@ -90,11 +90,70 @@ searchNumberColor2 en => searchNumberColor
 # 9 18-12-2023 Lundi
 
 
+Pas d'IA
 
-Essayons d'intégrer statusColor(color, number)
+
+Je me suis trompé ↓ c'était au top finalement
+X 1. Probleme non mentionné
+dans le récap de hier
+mais les sous-ensembles m'ont
+l'air d'être mal définis
+
+X 2. Il faut que je push
+les dernieres modifs du code
+
+
+X 3. Essayons d'intégrer statusColor(color, number)
 à notre code
 
-et de généraliser au test de toutes les couleur
+
+4. et de généraliser au test de toutes les couleur
 sur chaque ensemble d'elements
+J'ai essayé, mais j'ai du avoir un probleme de raisonnement
 
 
+
+
+
+X 1. Probleme non mentionné
+dans le récap de hier
+mais les sous-ensembles m'ont
+l'air d'être mal définis
+
+X 2. Il faut que je push
+les dernieres modifs du code
+
+
+X 3. Essayons d'intégrer statusColor(color, number)
+à notre code
+
+4. et de généraliser au test de toutes les couleur
+sur chaque ensemble d'elements
+J'ai essayé, mais j'ai du avoir un probleme de raisonnement
+
+
+commit massage
+I integrated the function in the code statusColor(color, number)
+I created the function testAllColors(setOfTable)
+This function look if all the subsets are available
+
+
+
+Ça code
+00:42:13
+
+statusColor
+51:56
+
+récap
+02:19:23
+
+
+#10 19-12-2023 
+IA autorisé
+
+relire la solution de reddit
+
+essayer de trouver une erreur de résonnement dans la double imbriquation de forEach
+
+Demander un peut d'aide à Mr. leprofdedev

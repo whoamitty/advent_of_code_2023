@@ -1,6 +1,18 @@
 const fs = require("fs");
+const { argv } = require("process");
 const main = () => {
-  const input = fs.readFileSync("./input.txt", "utf8").split("\n");
+
+
+let fileName
+if (argv[2]=='test'){
+    fileName='input_test.txt'
+  }
+  
+else{
+  fileName='input.txt'
+}
+
+  const input = fs.readFileSync(fileName, "utf8").split("\n");
 
   const available = {
     red: 12,

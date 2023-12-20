@@ -34,12 +34,11 @@ var regexColors=[['red',regexRed],['green',regexGreen],['blue',regexBlue]]
 lineNumber = 0;
 sumIdexGamesTrue=0;
 listGamesTrue="";
-
+listIndexTrue=[];
 
 // Écouter l'événement 'line' qui est émis à chaque fois qu'une nouvelle ligne est lue
 rl.on('line', (line) => {
     lineNumber++;
-    console.log("Nombre de bleu dans le premier tirage :",searchNumberColor(lineToTable(line)[0],regexBlue))
     console.log(line);
     console.log(lineToTable(line))
     
@@ -47,11 +46,10 @@ rl.on('line', (line) => {
 
     if (statusLIne) {
         sumIdexGamesTrue=sumIdexGamesTrue+lineNumber
+        listIndexTrue.push(lineNumber)
     }
 
     console.log("status",statusLIne)
-    
-
 
     console.log("\n")
 });
@@ -77,24 +75,30 @@ function testAllColors(setOfTable){
 
     let numberColor
     let boolean=true
-    setOfTable.forEach(subSet =>{
-        regexColors.forEach(color => { 
+    
+
+
+
+    for (subSet of setOfTable ){
+        for ( color  of regexColors){ 
             
-            numberColor=searchNumberColor(subSset,color[1]) //color[1] représente la partie regex de l'élément de liste
+            numberColor=searchNumberColor(subSet,color[1]) //color[1] représente la partie regex de l'élément de liste
 
             boolean=statusColor(color[0],numberColor)
+            console.log(boolean,`: ${numberColor} ${color[0]} `)
 
-            if(!boolean){
+         if(!boolean){
                 return boolean
             }
 
-            
-        });
 
-    })
+
+            
+        };
+
+    }
 
 return boolean
-
 
 }
 
@@ -118,6 +122,7 @@ function statusColor(color, number) {
 rl.on('close', () => {
     
     console.log("sumIdexGamesTrue:",sumIdexGamesTrue);
+    console.log("listIndexTrue",listIndexTrue)
 
     console.log('Fin de la lecture du fichier.');
     // console.log(argv[2]);

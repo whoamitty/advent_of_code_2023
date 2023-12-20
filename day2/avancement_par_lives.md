@@ -84,7 +84,7 @@ X sumAllElementsPlusIDs=0
 
 ## I renamed
 searchNumberColor2 en => searchNumberColor
-<details >
+</details >
 
 
 # 9 18-12-2023 Lundi
@@ -123,7 +123,6 @@ l'air d'être mal définis
 X 2. Il faut que je push
 les dernieres modifs du code
 
-
 X 3. Essayons d'intégrer statusColor(color, number)
 à notre code
 
@@ -149,11 +148,25 @@ récap
 02:19:23
 
 
-#10 19-12-2023 
-IA autorisé
+#10 19-12-2023 Mardi
+IA autorisé (3 requetes aujourd'hui)
 
-relire la solution de reddit
+X 1. Comparrer le résultat avec celui de reddit
 
-essayer de trouver une erreur de résonnement dans la double imbriquation de forEach
+X 2. relire la solution de reddit
 
-Demander un peut d'aide à Mr. leprofdedev
+X 3. essayer de trouver une erreur de
+résonnement dans la double imbriquation de forEach
+
+X Demander un peut d'aide à Mr. leprofdedev
+
+
+
+En hors live:
+J'ai corrigé une balise fermante </details> dans le fichier
+avancement_par_lives.md
+
+
+
+#11 20-12-2023 Mercredi
+

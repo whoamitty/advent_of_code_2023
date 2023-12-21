@@ -180,11 +180,11 @@ Pas d'IA
 X Go deuxieme partie du défie
 <details>
   <summary>Tout ce qui as été fait aujourd'hui</summary>
-J'ai réagencer les fichiers du jour 2 de sorte à 
-ajouter le travail en cours de la partie 2 du defi
+J'ai réagencer les fichiers du jour 2 de sorte à   
+ajouter le travail en cours de la partie 2 du defi  
 
-J'ai ajouté aussi la consigne dans le README.md
-J'ai compris le probleme
+J'ai ajouté aussi la consigne dans le README.md  
+J'ai compris le probleme  
 et je l'ai expliqué à ma manière dans le fichier reflexion.txt
 
 </details>

@@ -194,6 +194,9 @@ J'ai réagencer les fichiers du jour 2 de sorte à
 ajouter le travail en cours de la partie 2 du defi  
 
 J'ai ajouté aussi la consigne dans le README.md  
+en original (Anglais)
+et aussi traduit en Français
+
 J'ai compris le probleme  
 et je l'ai expliqué à ma manière dans le fichier reflexion.txt
 

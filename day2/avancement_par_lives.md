@@ -182,23 +182,25 @@ X Go deuxieme partie du défie
 
 <details>
   <summary>Tout ce qui as été fait aujourd'hui</summary>
-Pendant un moment,
+Pendant un moment,  
 j'ai oublié que c'est la musique qui me tennais éveillé  
 Je l'avais éteinte de mon coté(pas coté youtube)  
 donc j'ai somnollé un peut.  
 
-J'aurais pus faire plus je pense sans cette oublie.  
+J'aurais pus faire plus je pense sans cette oublie.    
 
+J'ai expliqué ce qui as été fait hier  
+vue qui j'ai codé dans le vent(sans stream erreur d'inattention)    
 
 J'ai réagencer les fichiers du jour 2 de sorte à   
 ajouter le travail en cours de la partie 2 du defi  
 
 J'ai ajouté aussi la consigne dans le README.md  
-en original (Anglais)
-et aussi traduit en Français
+en original (Anglais)  
+et aussi traduit en Français  
 
 J'ai compris le probleme  
-et je l'ai expliqué à ma manière dans le fichier reflexion.txt
+et je l'ai expliqué à ma manière dans le fichier reflexion.txt  
 
 </details>
 

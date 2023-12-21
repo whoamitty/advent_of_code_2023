@@ -5,10 +5,10 @@ const { argv } = require('process');
 const readline = require('readline');
 
 
-fileName='input.txt'
+fileName='../input.txt'
 
 if (argv[2]=='test'){
-    fileName='input_test.txt'
+    fileName='../input_test.txt'
 
 }
 

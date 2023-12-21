@@ -5,11 +5,11 @@ const main = () => {
 
 let fileName
 if (argv[2]=='test'){
-    fileName='input_test.txt'
+    fileName='../input_test.txt'
   }
   
 else{
-  fileName='input.txt'
+  fileName='../input.txt'
 }
 
   const input = fs.readFileSync(fileName, "utf8").split("\n");

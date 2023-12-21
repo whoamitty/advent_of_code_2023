@@ -148,8 +148,11 @@ récap
 02:19:23
 
 
-#10 19-12-2023 Mardi
-IA autorisé (3 requetes aujourd'hui)
+# 10 19-12-2023 Mardi
+<details>
+  <summary>Tout ce qui as été fait aujourd'hui</summary>
+
+IA autorisé (3 requetes faites aujourd'hui)
 
 X 1. Comparrer le résultat avec celui de reddit
 
@@ -160,13 +163,33 @@ résonnement dans la double imbriquation de forEach
 
 X Demander un peut d'aide à Mr. leprofdedev
 
-
-
 En hors live:
 J'ai corrigé une balise fermante </details> dans le fichier
 avancement_par_lives.md
 
+Aujourd'hui j'ai aussi
+changé les boucles forEach en boucles for
+parceque les boucles for ne permettent pas de 
+d'en sortir par une opération return
+</details>
 
 
-#11 20-12-2023 Mercredi
+# 11 20-12-2023 Mercredi
+Pas d'IA
 
+X Go deuxieme partie du défie
+<details>
+  <summary>Tout ce qui as été fait aujourd'hui</summary>
+J'ai réagencer les fichiers du jour 2 de sorte à 
+ajouter le travail en cours de la partie 2 du defi
+
+J'ai ajouté aussi la consigne dans le README.md
+J'ai compris le probleme
+et je l'ai expliqué à ma manière dans le fichier reflexion.txt
+
+</details>
+
+<!-- <details>
+  <summary>Tout ce qui as été fait aujourd'hui</summary>
+
+</details> -->

@@ -21,5 +21,10 @@ Somme des index des jeux
 
 
 
+PART 2
+
+faire la somme de ces multiplications pour chaque ligne
+nbBleuMinimal*nbRougeMinimal*nbVertMinimal
+
 
 

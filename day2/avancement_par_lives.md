@@ -184,7 +184,8 @@ X Go deuxieme partie du défie
   <summary>Tout ce qui as été fait aujourd'hui</summary>
 Pendant un moment,
 j'ai oublié que c'est la musique qui me tennais éveillé  
-Je l'avais éteinte de mon coté donc j'ai somnollé un peut.  
+Je l'avais éteinte de mon coté(pas coté youtube)  
+donc j'ai somnollé un peut.  
 
 J'aurais pus faire plus je pense sans cette oublie.  
 

@@ -169,7 +169,7 @@ avancement_par_lives.md
 
 Aujourd'hui j'ai aussi
 changé les boucles forEach en boucles for
-parceque les boucles for ne permettent pas de 
+parceque les boucles forEach ne permettent pas de 
 d'en sortir par une opération return
 </details>
 
@@ -178,8 +178,17 @@ d'en sortir par une opération return
 Pas d'IA
 
 X Go deuxieme partie du défie
+
+
 <details>
   <summary>Tout ce qui as été fait aujourd'hui</summary>
+Pendant un moment,
+j'ai oublié que c'est la musique qui me tennais éveillé  
+Je l'avais éteinte de mon coté donc j'ai somnollé un peut.  
+
+J'aurais pus faire plus je pense sans cette oublie.  
+
+
 J'ai réagencer les fichiers du jour 2 de sorte à   
 ajouter le travail en cours de la partie 2 du defi  
 

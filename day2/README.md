@@ -88,72 +88,35 @@ Part 2
 <details>
 <summary>In English</summary>
 
-La première moitié de ce casse-tête est terminée ! Elle vous donne une étoile d'or : *
+The first half of this puzzle is complete! It provides one gold star: *
 
---- Partie Deux ---
-L'elfe dit qu'ils ont arrêté de produire de la neige parce qu'ils n'obtiennent pas d'eau ! Il n'est pas sûr de la raison pour laquelle l'eau s'est arrêtée ; cependant, il peut vous montrer comment vous rendre à la source d'eau pour le vérifier par vous-même. C'est juste là-bas !
+--- Part Two ---
+The Elf says they've stopped producing snow because they aren't getting any water! He isn't sure why the water stopped; however, he can show you how to get to the water source to check it out for yourself. It's just up ahead!
 
-Pendant que vous continuez votre marche, l'elfe pose une deuxième question : dans chaque jeu auquel vous avez joué, quel est le nombre minimum de cubes de chaque couleur qui auraient pu être dans le sac pour rendre le jeu possible ?
+As you continue your walk, the Elf poses a second question: in each game you played, what is the fewest number of cubes of each color that could have been in the bag to make the game possible?
 
-Considérez à nouveau les exemples de jeux précédents :
+Again consider the example games from earlier:
 
-Jeu 1 : 3 bleus, 4 rouges ; 1 rouge, 2 verts, 6 bleus ; 2 verts
-Jeu 2 : 1 bleu, 2 verts ; 3 verts, 4 bleus, 1 rouge ; 1 vert, 1 bleu
-Jeu 3 : 8 verts, 6 bleus, 20 rouges ; 5 bleus, 4 rouges, 13 verts ; 5 verts, 1 rouge
-Jeu 4 : 1 vert, 3 rouges, 6 bleus ; 3 verts, 6 rouges ; 3 verts, 15 bleus, 14 rouges
-Jeu 5 : 6 rouges, 1 bleu, 3 verts ; 2 bleus, 1 rouge, 2 verts
-Dans le jeu 1, le jeu aurait pu être joué avec au moins 4 rouges, 2 verts et 6 bleus. Si une couleur avait même un cube de moins, le jeu aurait été impossible.
-Le jeu 2 aurait pu être joué avec un minimum de 1 rouge, 3 verts et 4 bleus.
-Le jeu 3 a dû être joué avec au moins 20 rouges, 13 verts et 6 bleus.
-Le jeu 4 nécessitait au moins 14 rouges, 3 verts et 15 bleus.
-Le jeu 5 n'avait pas besoin de moins de 6 rouges, 3 verts et 2 bleus dans le sac.
-La puissance d'un ensemble de cubes est égale au nombre de cubes rouges, verts et bleus multipliés ensemble. La puissance de l'ensemble minimal de cubes dans le jeu 1 est de 48. Dans les jeux 2 à 5, elle était de 12, 1560, 630 et 36 respectivement. En additionnant ces cinq puissances, on obtient la somme 2286.
+Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
+Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
+Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red
+Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red
+Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
+In game 1, the game could have been played with as few as 4 red, 2 green, and 6 blue cubes. If any color had even one fewer cube, the game would have been impossible.
+Game 2 could have been played with a minimum of 1 red, 3 green, and 4 blue cubes.
+Game 3 must have been played with at least 20 red, 13 green, and 6 blue cubes.
+Game 4 required at least 14 red, 3 green, and 15 blue cubes.
+Game 5 needed no fewer than 6 red, 3 green, and 2 blue cubes in the bag.
+The power of a set of cubes is equal to the numbers of red, green, and blue cubes multiplied together. The power of the minimum set of cubes in game 1 is 48. In games 2-5 it was 12, 1560, 630, and 36, respectively. Adding up these five powers produces the sum 2286.
 
-Pour chaque jeu, trouvez l'ensemble minimal de cubes qui devaient être présents. Quelle est la somme de la puissance de ces ensembles ?
+For each game, find the minimum set of cubes that must have been present. What is the sum of the power of these sets?
 
-Réponse :
+Answer: 
+ 
 
-Bien qu'elle n'ait pas changé, vous pouvez toujours obtenir votre entrée de casse-tête.
+Although it hasn't changed, you can still get your puzzle input.
 
-Vous pouvez également [Partager] ce casse-tête.
-
-
-
-
-La première moitié de ce casse-tête est terminée ! Elle vous donne une étoile d'or : *
-
---- Partie Deux ---
-L'elfe dit qu'ils ont arrêté de produire de la neige parce qu'ils n'obtiennent pas d'eau ! Il n'est pas sûr de la raison pour laquelle l'eau s'est arrêtée ; cependant, il peut vous montrer comment vous rendre à la source d'eau pour le vérifier par vous-même. C'est juste là-bas !
-
-Pendant que vous continuez votre marche, l'elfe pose une deuxième question : dans chaque jeu auquel vous avez joué, quel est le nombre minimum de cubes de chaque couleur qui auraient pu être dans le sac pour rendre le jeu possible ?
-
-Considérez à nouveau les exemples de jeux précédents :
-
-Jeu 1 : 3 bleus, 4 rouges ; 1 rouge, 2 verts, 6 bleus ; 2 verts
-Jeu 2 : 1 bleu, 2 verts ; 3 verts, 4 bleus, 1 rouge ; 1 vert, 1 bleu
-Jeu 3 : 8 verts, 6 bleus, 20 rouges ; 5 bleus, 4 rouges, 13 verts ; 5 verts, 1 rouge
-Jeu 4 : 1 vert, 3 rouges, 6 bleus ; 3 verts, 6 rouges ; 3 verts, 15 bleus, 14 rouges
-Jeu 5 : 6 rouges, 1 bleu, 3 verts ; 2 bleus, 1 rouge, 2 verts
-Dans le jeu 1, le jeu aurait pu être joué avec au moins 4 rouges, 2 verts et 6 bleus. Si une couleur avait même un cube de moins, le jeu aurait été impossible.
-Le jeu 2 aurait pu être joué avec un minimum de 1 rouge, 3 verts et 4 bleus.
-Le jeu 3 a dû être joué avec au moins 20 rouges, 13 verts et 6 bleus.
-Le jeu 4 nécessitait au moins 14 rouges, 3 verts et 15 bleus.
-Le jeu 5 n'avait pas besoin de moins de 6 rouges, 3 verts et 2 bleus dans le sac.
-La puissance d'un ensemble de cubes est égale au nombre de cubes rouges, verts et bleus multipliés ensemble. La puissance de l'ensemble minimal de cubes dans le jeu 1 est de 48. Dans les jeux 2 à 5, elle était de 12, 1560, 630 et 36 respectivement. En additionnant ces cinq puissances, on obtient la somme 2286.
-
-Pour chaque jeu, trouvez l'ensemble minimal de cubes qui devaient être présents. Quelle est la somme de la puissance de ces ensembles ?
-
-Réponse :
-
-Bien qu'elle n'ait pas changé, vous pouvez toujours obtenir votre entrée de casse-tête.
-
-Vous pouvez également [Partager] ce casse-tête.
-
-
-
-
-
-
+You can also [Share] this puzzle.
 
 
 </details>

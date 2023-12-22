@@ -208,3 +208,7 @@ et je l'ai expliqué à ma manière dans le fichier reflexion.txt
   <summary>Tout ce qui as été fait aujourd'hui</summary>
 
 </details> -->
+
+
+
+# 11 20-12-2023 Jeudi

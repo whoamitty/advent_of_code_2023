@@ -7,7 +7,7 @@ const readline = require('readline');
 
 fileName='../input.txt'
 
-if (argv[2]=='test'){
+if (argv[2]=='../test'){
     fileName='../input_test.txt'
 
 }
@@ -102,6 +102,22 @@ return boolean
 
 }
 
+function statusColor(color, number) {
+    if (color === "red") {
+        if (number > 12) { return false; }
+    }
+
+    else if (color === "green") {
+        if (number > 13) { return false; }
+    }
+
+    else if (color === "blue") {
+        if (number > 14) { return false; }
+    };
+    
+    return true;
+}
+    
 // Écouter l'événement 'close' et effectuer une action une fois que le fichier a été lu entièrement
 rl.on('close', () => {
     

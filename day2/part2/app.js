@@ -7,7 +7,7 @@ const readline = require('readline');
 
 fileName='../input.txt'
 
-if (argv[2]=='test'){
+if (argv[2]=='../test'){
     fileName='../input_test.txt'
 
 }
@@ -41,6 +41,7 @@ rl.on('line', (line) => {
     lineNumber++;
     console.log(line);
     console.log(lineToTable(line))
+    console.log(testIfMinimal(lineToTable(line)))
     
     statusLIne=testAllColors(lineToTable(line))
 
@@ -49,7 +50,7 @@ rl.on('line', (line) => {
         listIndexTrue.push(lineNumber)
     }
 
-    console.log("status",statusLIne)
+    // console.log("status",statusLIne)
 
     console.log("\n")
 });
@@ -85,7 +86,7 @@ function testAllColors(setOfTable){
             numberColor=searchNumberColor(subSet,color[1]) //color[1] représente la partie regex de l'élément de liste
 
             boolean=statusColor(color[0],numberColor)
-            console.log(boolean,`: ${numberColor} ${color[0]} `)
+            // console.log(boolean,`: ${numberColor} ${color[0]} `)
 
          if(!boolean){
                 return boolean
@@ -117,7 +118,31 @@ function statusColor(color, number) {
     
     return true;
 }
+
+function testIfMinimal(setOfTable){
     
+    let numberColor
+
+    let listMinimal=[0,0,0]
+
+
+    for (subSet of setOfTable ){
+        for (indexListMinimal  of [[0,'red',regexRed],[1,'green',regexGreen],[2,'blue',regexBlue]]){
+            
+            numberColor=searchNumberColor(subSet,indexListMinimal[2])
+            
+            if (listMinimal[indexListMinimal] < numberColor){
+                listMinimal[indexListMinimal] = numberColor
+            }
+        }
+    }
+    return listMinimal
+
+}
+
+
+
+
 // Écouter l'événement 'close' et effectuer une action une fois que le fichier a été lu entièrement
 rl.on('close', () => {
     

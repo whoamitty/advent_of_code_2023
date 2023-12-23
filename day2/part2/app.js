@@ -13,7 +13,6 @@ if (argv[2]=='../test'){
 }
 
 
-
 // Créer un Readable Stream pour lire un fichier
 const readStream = fs.createReadStream(fileName);
 
@@ -35,15 +34,20 @@ lineNumber = 0;
 sumIdexGamesTrue=0;
 listGamesTrue="";
 listIndexTrue=[];
+powerSum=0
 
 // Écouter l'événement 'line' qui est émis à chaque fois qu'une nouvelle ligne est lue
 rl.on('line', (line) => {
     lineNumber++;
+    setOfTable=lineToTable(line)
     console.log(line);
-    console.log(lineToTable(line))
-    console.log(testIfMinimal(lineToTable(line)))
+    console.log(setOfTable)
+    console.log(power(setOfTable))
     
-    statusLIne=testAllColors(lineToTable(line))
+    statusLIne=testAllColors(setOfTable)
+
+    powerSum=powerSum+power(setOfTable)
+
 
     if (statusLIne) {
         sumIdexGamesTrue=sumIdexGamesTrue+lineNumber
@@ -76,8 +80,6 @@ function testAllColors(setOfTable){
 
     let numberColor
     let boolean=true
-    
-
 
 
     for (subSet of setOfTable ){
@@ -119,32 +121,33 @@ function statusColor(color, number) {
     return true;
 }
 
-function testIfMinimal(setOfTable){
-    
+
+function power(setOfTable){
     let numberColor
-
     let listMinimal=[0,0,0]
-
-
     for (subSet of setOfTable ){
         for (indexListMinimal  of [[0,'red',regexRed],[1,'green',regexGreen],[2,'blue',regexBlue]]){
             
             numberColor=searchNumberColor(subSet,indexListMinimal[2])
-            
-            if (listMinimal[indexListMinimal] < numberColor){
-                listMinimal[indexListMinimal] = numberColor
+            if (listMinimal[indexListMinimal[0]] < numberColor){
+                listMinimal[indexListMinimal[0]] = numberColor
             }
+
         }
     }
-    return listMinimal
 
+    return listMinimal[0]*listMinimal[1]*listMinimal[2]
+   
 }
+
+
 
 
 
 
 // Écouter l'événement 'close' et effectuer une action une fois que le fichier a été lu entièrement
 rl.on('close', () => {
+    console.log("powerSum :",powerSum)
     
     console.log("sumIdexGamesTrue:",sumIdexGamesTrue);
     console.log("listIndexTrue",listIndexTrue)

@@ -90,10 +90,6 @@ function testAllColors(setOfTable){
          if(!boolean){
                 return boolean
             }
-
-
-
-            
         };
 
     }

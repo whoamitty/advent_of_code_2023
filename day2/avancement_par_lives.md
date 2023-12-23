@@ -212,3 +212,91 @@ et je l'ai expliqué à ma manière dans le fichier reflexion.txt
 
 
 # 11 20-12-2023 Jeudi
+
+IA autorisé (1 requete à la fin)
+Codeium as relevés une erreur dans testIfMinimal()
+
+
+<details>
+  <summary>Conversation avec Codeium</summary>
+
+
+
+
+
+
+```
+-- Requete faite --
+Qu'est ce que fait ce code ?
+
+function testIfMinimal(setOfTable){
+let numberColor
+
+let listMinimal=[0,0,0]
+
+
+for (subSet of setOfTable ){
+    for (indexListMinimal  of [[0,'red',regexRed],[1,'green',regexGreen],[2,'blue',regexBlue]]){
+        
+        numberColor=searchNumberColor(subSet,indexListMinimal[2])
+        
+        if (listMinimal[indexListMinimal] < numberColor){
+            listMinimal[indexListMinimal] = numberColor
+        }
+    }
+}
+return listMinimal
+
+
+
+-- Réponse de Codeium --
+
+Ce code définit une fonction testIfMinimal, qui prend en paramètre setOfTable. Voici ce que la fonction semble faire :
+
+Initialise une variable numberColor sans lui attribuer de valeur.
+Crée une liste listMinimal avec trois valeurs initiales de zéro, qui semble représenter un comptage minimal pour trois couleurs respectivement : rouge, vert et bleu.
+Itère sur chaque subSet dans le setOfTable. On suppose que setOfTable est une collection de sous-ensembles.
+Pour chaque subSet, la fonction itère sur une liste de trois tableaux, où chaque tableau contient un index pour listMinimal, une couleur et un regex associé à cette couleur.
+Pour chaque couleur, la fonction searchNumberColor est appelée avec subSet et le regex correspondant à la couleur. La fonction searchNumberColor n'est pas définie dans cet extrait de code, mais on peut supposer qu'elle recherche des correspondances de la couleur dans le subSet en utilisant le regex fourni et renvoie le nombre de correspondances.
+Si le nombre de correspondances pour une couleur dans le subSet courant est supérieur à la valeur actuelle correspondante dans listMinimal, alors cette valeur est mise à jour dans listMinimal avec le nouveau nombre plus élevé de correspondances.
+Après avoir itéré sur tous les subSet et toutes les couleurs, la fonction retourne listMinimal, qui contient maintenant le compte maximal pour chaque couleur rouge, vert et bleu trouvé dans tous les sous-ensembles de setOfTable.
+Notez que dans la boucle interne, indexListMinimal est utilisé de manière incorrecte. Il semblerait que l'intention était d'utiliser indexListMinimal[0] pour indexer listMinimal, car indexListMinimal est un tableau et non un nombre.
+
+Aussi, la fonction utilise des variables regexRed, regexGreen, et regexBlue qui ne sont pas définies dans cet extrait de code. Ces variables sont probablement des expressions régulières utilisées pour identifier les couleurs dans les sous-ensembles.
+
+Il est important de noter que, sans plus de contexte ou de code supplémentaire, cette interprétation peut ne pas être tout à fait correcte. Si vous avez des parties spécifiques du code ou des fonctionnalités que vous souhaitez clarifier davantage, n'hésitez pas à demander.
+
+```
+</details>
+
+
+Récap:
+fonction ajouté testIfMinimal()  retournant une liste
+décrivant quel sont les nombres
+d'éléments minimals ajouté
+
+Retour à une version une version prédantes de part1/app.js  
+car je m'était trompé de fichier dans lequel éditer  
+ça devais être part2/app.js  
+f11c379aeffbd65372e32b21d3dca12f3f13e43b  
+
+
+# 12 22-12-2023 vendredi
+
+Pas d'IA
+
+
+La boucle interne,
+indexListMinimal était utilisé de manière incorrecte.
+Il semblerait que l'intention était d'utiliser
+indexListMinimal[0] pour indexer listMinimal,
+car indexListMinimal est un tableau et non un nombre.
+
+
+renamed testIfMinimal() to power()
+
+
+Et maintenant power  
+calcule la multiplication des minimums
+
+

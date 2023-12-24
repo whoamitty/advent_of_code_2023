@@ -1,6 +1,10 @@
 Les récap du jour
 
-# 6 14-12-2023 Jeudi  
+6eme live sur le defi 2
+si on prend en compte ceux faits sur twitch+youtube 
+
+Mais 4ieme si en compte seulement ceux de youtube
+# 4 14-12-2023 Jeudi  
 
 Problemes réglés:  
 ajout de !/null/.test dans "searchNumberColor2"  
@@ -20,7 +24,7 @@ Je pense que je le ferrais
 
 
 
-# 7 15-12-2023 vendredi
+# 5 15-12-2023 vendredi
 
 C'est décevant, mais aujourd'hui,  
 pas d'avancement  
@@ -42,7 +46,7 @@ Je ne comprend même plus, certains points de mon code
 
 
 
-# 8 17-12-2023 Dimanche
+# 6 17-12-2023 Dimanche
 
 
 <details >
@@ -87,7 +91,7 @@ searchNumberColor2 en => searchNumberColor
 </details >
 
 
-# 9 18-12-2023 Lundi
+# 7 18-12-2023 Lundi
 
 
 Pas d'IA
@@ -148,7 +152,7 @@ récap
 02:19:23
 
 
-# 10 19-12-2023 Mardi
+# 8 19-12-2023 Mardi
 <details>
   <summary>Tout ce qui as été fait aujourd'hui</summary>
 
@@ -174,7 +178,7 @@ d'en sortir par une opération return
 </details>
 
 
-# 11 20-12-2023 Mercredi
+# 9 20-12-2023 Mercredi
 Pas d'IA
 
 X Go deuxieme partie du défie
@@ -211,7 +215,7 @@ et je l'ai expliqué à ma manière dans le fichier reflexion.txt
 
 
 
-# 11 20-12-2023 Jeudi
+# 10 20-12-2023 Jeudi
 
 IA autorisé (1 requete à la fin)
 Codeium as relevés une erreur dans testIfMinimal()
@@ -281,7 +285,7 @@ car je m'était trompé de fichier dans lequel éditer
 f11c379aeffbd65372e32b21d3dca12f3f13e43b  
 
 
-# 12 22-12-2023 vendredi
+# 11  22-12-2023 vendredi
 
 Pas d'IA
 
@@ -293,10 +297,17 @@ indexListMinimal[0] pour indexer listMinimal,
 car indexListMinimal est un tableau et non un nombre.
 
 
+
+
 renamed testIfMinimal() to power()
 
 
 Et maintenant power  
 calcule la multiplication des minimums
+
+J'ai fait pour chaque ligne
+dans rl.on('line', (line) => {
+la somme des puissances calculés
+
 
 

@@ -50,7 +50,7 @@ rl.on('line', (line) => {
 });
 
 
-// Look if line contain 0, 1 or 2 digit
+// Return first and last digit if exist
 /* function lookNumberOfDigit(line){
     lineLength=line.length
 
@@ -142,6 +142,7 @@ function lookFirstAndLastDigit(line){
     
     indexForLastElement=lineLength-1
     LastElement=false
+    
     
     if (oneDigit && indexForFirstElement!=lineLength ){
     while (indexForLastElement > indexForFirstElement ) {

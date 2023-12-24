@@ -287,7 +287,16 @@ f11c379aeffbd65372e32b21d3dca12f3f13e43b
 
 # 11  22-12-2023 vendredi
 
+
+
 Pas d'IA
+
+
+X 1. Essayer de comprendre l'erreur
+trouvé par Codeium(l'IA) hier
+
+X 2. Essayer trouver
+ce qui cloche dans testIfMinimal()
 
 
 La boucle interne,
@@ -308,6 +317,8 @@ calcule la multiplication des minimums
 J'ai fait pour chaque ligne
 dans rl.on('line', (line) => {
 la somme des puissances calculés
+
+
 
 
 

@@ -57,7 +57,9 @@ rl.on('line', (line) => {
 function searchNumberColor(subSetofColor,regexColor){
     
     let numberColor=subSetofColor.match(regexColor)
+    // console.log("numberColor:",Number(numberColor))
     return Number(numberColor)
+
 
 }
 

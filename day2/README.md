@@ -7,7 +7,7 @@
 the file part1/reddit_soluc.js  
 helped me
 
-It helped me  
+It helped me for
 the part2 too
 
 <details >

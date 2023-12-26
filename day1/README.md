@@ -6,6 +6,9 @@
 the file reddit_soluc.js
 helped me
 
+
+# PART 1
+
 <details>
   <summary>In English</summary>
 
@@ -76,6 +79,84 @@ Considérez l'ensemble de votre document d'étalonnage. Quelle est la somme de t
 Pour commencer, obtenez votre entrée de casse-tête.
 
 Réponse :
+
+Vous pouvez également [Partager] ce casse-tête.
+```
+
+</details>
+
+
+# PART 2
+
+## Instructions and context
+
+> [!IMPORTANT]  
+> Resulte of this soluce not working
+
+the file reddit_soluc.js
+helped me
+
+<details>
+  <summary>In English</summary>
+
+```
+The first half of this puzzle is complete! It provides one gold star: *
+
+--- Part Two ---
+Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
+
+Equipped with this new information, you now need to find the real first and last digit on each line. For example:
+
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
+
+What is the sum of all of the calibration values?
+
+Answer: 
+ 
+
+Although it hasn't changed, you can still get your puzzle input.
+
+You can also [Share] this puzzle.
+```
+
+
+</details >
+
+
+<details>
+<summary>En français</summary>
+
+```
+Translated by chatgpt
+
+La première moitié de ce casse-tête est terminée ! Elle vous offre une étoile dorée : *
+
+--- Partie Deux ---
+Votre calcul n'est pas tout à fait correct. Il semble que certains des chiffres soient en fait écrits avec des lettres : un, deux, trois, quatre, cinq, six, sept, huit et neuf sont également considérés comme des "chiffres" valides.
+
+Équipé de cette nouvelle information, vous devez maintenant trouver le vrai premier et dernier chiffre sur chaque ligne. Par exemple :
+
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+Dans cet exemple, les valeurs d'étalonnage sont 29, 83, 13, 24, 42, 14 et 76. Les additionner produit 281.
+
+Quelle est la somme de toutes les valeurs d'étalonnage ?
+
+Réponse :
+
+Bien que cela n'ait pas changé, vous pouvez toujours obtenir votre entrée de casse-tête.
 
 Vous pouvez également [Partager] ce casse-tête.
 ```

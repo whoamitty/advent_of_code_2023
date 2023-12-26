@@ -1,6 +1,14 @@
 ## Instructions and context
 
+
+
 Part 1
+
+the file part1/reddit_soluc.js
+helped me
+
+It helped me
+the part2 too
 
 <details >
   <summary>In English</summary>

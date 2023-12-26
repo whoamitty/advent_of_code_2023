@@ -1,8 +1,5 @@
 ## Instructions and context
 
-the file reddit_soluc.js
-helped me
-
 
 # PART 1
 
@@ -90,8 +87,6 @@ Vous pouvez également [Partager] ce casse-tête.
 > [!IMPORTANT]  
 > Resulte of this soluce not working
 
-the file reddit_soluc.js
-helped me
 
 <details>
   <summary>In English</summary>

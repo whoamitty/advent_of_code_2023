@@ -1,13 +1,13 @@
-## Instructions and context
+# Instructions and context
 
 
 
-Part 1
+## Part 1
 
-the file part1/reddit_soluc.js
+the file part1/reddit_soluc.js  
 helped me
 
-It helped me
+It helped me  
 the part2 too
 
 <details >
@@ -89,7 +89,7 @@ Déterminez quels jeux auraient été possibles si le sac avait été chargé av
 
 
 
-Part 2
+## Part 2
 <details>
 <summary>In English</summary>
 

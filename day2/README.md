@@ -1,6 +1,3 @@
-> [!IMPORTANT]  
-> Resulte of soluce not working
-
 ## Instructions and context
 
 Part 1

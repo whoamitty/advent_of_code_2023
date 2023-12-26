@@ -1,8 +1,5 @@
 ## Instructions and context
 
-> [!IMPORTANT]  
-> Resulte of this soluce not working
-
 the file reddit_soluc.js
 helped me
 
